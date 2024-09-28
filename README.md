@@ -44,17 +44,7 @@
 ## Задание 2
 Написать программу Hello World на C# с запуском на Unity. 
 
-В специально созданном для выполнения задания проекте на Unity, был создан C# script, имеющий следующее наполнение:
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class HelloWorld : MonoBehaviour
-{
-    void Start()
-    {
-        print("Hello World");
-    }
+В специально созданном для выполнения задания проекте на Unity, был создан C# script, имеющий строчку print("Hello World");
 Этот скрипт был присвоен empty объекту, что привело к тому что при нажатии кнопки "Play" в консоли вывелось сообщение "Hello world".
 
 ![image](https://github.com/user-attachments/assets/658d464c-0c3b-4cf9-b9ba-0ce44608f61d)
